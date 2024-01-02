@@ -10,7 +10,7 @@ export default function Home() {
           <div className="flex flex-col justify-center gap-8">
             <h1 className="h1-bold "> Host, Connect, Celebrate: Your Events, Our Platform</h1>
             <p className="p-regular-20 md:p-regular-24">
-Elevate Your Experiences: Where Every Event Finds Its Perfect Platform!
+              Elevate Your Experiences: Where Every Event Finds Its Perfect Platform!
             </p>
             <Button size='lg' asChild className="button w-full sm:w-fit">
               <Link href='#events'>
@@ -23,17 +23,21 @@ Elevate Your Experiences: Where Every Event Finds Its Perfect Platform!
             src="/assets/images/hero.png"
             alt="hero"
             width={1000}
-            height={1000} 
-            className="max-h-[70vh] object-contain object-center 2xl:max-h-[50vh]" 
-          /> 
+            height={1000}
+            className="max-h-[70vh] object-contain object-center 2xl:max-h-[50vh]"
+          />
 
-          </div>
+        </div>
       </section>
 
       <section id="events" className="wrapper my-8 flex flex-col gap-8 md:gap-12">
-        <h2 className="h2-bold"> 
-
+        <h2 className="h2-bold">
+          Trusted by <br /> 100+ Event Organizers
         </h2>
+        <div className="flex w-full flex-full gap-5 md:flex-row">
+          Search
+          Category Filter
+        </div>
       </section>
     </>
   )

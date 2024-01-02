@@ -1,8 +1,9 @@
 export default function Home() {
   return (
-    <main >
+    <>
+      <section className="bg-primary-50 bg-dotted-pattern bg-contain">
 
-
-    </main>
+      </section>
+    </>
   )
 }
